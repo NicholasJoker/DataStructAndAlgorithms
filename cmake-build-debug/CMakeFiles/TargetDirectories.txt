@@ -1,2 +1,2 @@
-F:/DataStructAndAlgorithms/cmake-build-debug/CMakeFiles/edit_cache.dir
-F:/DataStructAndAlgorithms/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Administrator/Desktop/DataStructAndAlgorithms/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Administrator/Desktop/DataStructAndAlgorithms/cmake-build-debug/CMakeFiles/rebuild_cache.dir
