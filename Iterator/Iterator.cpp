@@ -5,8 +5,8 @@
 
 //value_type 类型指定 获取原类型  原生char*  int*  *it 获得原类型
 
-#ifndef MYITERATOR_H
-#define MYITERTOR_H
+//#ifndef MYITERATOR_H
+//#define MYITERTOR_H
 
 template<class T>
 class Iterator{
@@ -18,12 +18,12 @@ public:
     //运算符重载 重载& 实现解引用获取类型对象地址(指针)
     T& operator*()const{return *ptr_;};
     //重载-> 实现获取类型对象
-    T* operator->()const(return ptr_;);
+//    T* operator->()const(return ptr_;);
 
     //重载加法运算符
     //返回自增的地址 前缀++
     Iterator& operator++(){
-        ptr_ = prt_+1;
+        ptr_ = ptr_+1;
         return *this;
     }
     //返回自增的对象 后缀++
@@ -39,36 +39,36 @@ public:
     Iterator operator-(const int &i)
     {
         Iterator temp = *this;
-        temp.ptr_ = temp.prt_-i;
+        temp.ptr_ = temp.ptr_-i;
         return temp;
     }
     Iterator operator+(const int &i)
     {
         Iterator temp = *this;
-        temp.prt_ = temp.prt_+i;
+        temp.ptr_ = temp.ptr_+i;
         return temp;
     }
     //判断地址是否相等
     bool operator == (const Iterator &i)const{
-        return prt_ == i.prt_;
+        return ptr_ == i.ptr_;
     }
 
     bool operator != (const Iterator &i)const{
-        return prt_ != i.prt_;
+        return ptr_ != i.ptr_;
     }
     //判断内容相等
     bool operator != (const T &i)const{
-        return (*prt_)!=a;
+        return (*ptr_)!=i;
     }
 private:
-    T*prt_;
+    T*ptr_;
 };
 
 //获取所指定类型
 template<class It>
 struct iterator_traits
 {
-    typedef typeName It::value_type value_Type;
+    typedef typename It::value_type value_Type;
 };
 template<class It>
 struct iterator_traits<It*>

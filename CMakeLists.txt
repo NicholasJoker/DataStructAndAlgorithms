@@ -6,6 +6,9 @@ set(CMAKE_CXX_STANDARD 14)
 #add_executable(DataStructAndAlgorithms
 #        ArrayList/ArrayList.cpp
 #        README.md IllegalParameterValue/IllegalParameterValue.h)
-#include_directories(SYSTEM "/IllegalParameterValue/IllegalParameterValue")
-#add_executable(DataStruct main.cpp)
+include_directories(SYSTEM "/IllegalParameterValue/IllegalParameterValue")
+add_executable(DataStruct main.cpp
+        IllegalParaterValue/IllegalParaterValue.h
+        ArrayList/linearList.h
+        ArrayList/ArrayList.h)
 

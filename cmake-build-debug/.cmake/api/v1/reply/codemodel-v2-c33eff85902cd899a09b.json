@@ -12,7 +12,11 @@
 						"string" : "3.23"
 					},
 					"projectIndex" : 0,
-					"source" : "."
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
 				}
 			],
 			"name" : "Debug",
@@ -23,10 +27,23 @@
 					[
 						0
 					],
-					"name" : "DataStructAndAlgorithms"
+					"name" : "DataStructAndAlgorithms",
+					"targetIndexes" : 
+					[
+						0
+					]
 				}
 			],
-			"targets" : []
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "DataStruct::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DataStruct-Debug-348151bc2e62fbe8047e.json",
+					"name" : "DataStruct",
+					"projectIndex" : 0
+				}
+			]
 		}
 	],
 	"kind" : "codemodel",
