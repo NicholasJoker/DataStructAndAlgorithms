@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "DataStruct::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-DataStruct-Debug-348151bc2e62fbe8047e.json",
+					"jsonFile" : "target-DataStruct-Debug-f63307e6adad724be228.json",
 					"name" : "DataStruct",
 					"projectIndex" : 0
 				}
@@ -49,12 +49,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/Administrator/Desktop/DataStructAndAlgorithms/cmake-build-debug",
-		"source" : "C:/Users/Administrator/Desktop/DataStructAndAlgorithms"
+		"build" : "F:/DataStructAndAlgorithms/cmake-build-debug",
+		"source" : "F:/DataStructAndAlgorithms"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 5
+		"minor" : 4
 	}
 }

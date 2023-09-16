@@ -5,7 +5,7 @@
 #ifndef DATASTRUCTANDALGORITHMS_LINEARLIST_H
 #define DATASTRUCTANDALGORITHMS_LINEARLIST_H
 
-#include <ostream>
+#include <iostream>
 using namespace std;
 //定义一个抽象的线性表
 template<class T>
@@ -14,7 +14,7 @@ public:
     //析构函数
     virtual ~linearList(){};
     //判断是否为空
-    virtual bool isEmpty() const = 0;
+    virtual bool empty() const = 0;
     //返回线性表元素个数
     virtual int size() const = 0;
     //返回索引元素
@@ -26,6 +26,6 @@ public:
     //将元素element 插入到index的位置
     virtual void insert(int index,const T& element) = 0;
     //将线性表插入输出流
-    virtual void outputStream(ostream& out) const = 0;
+    virtual void output(ostream& out) const = 0;
 };
 #endif;

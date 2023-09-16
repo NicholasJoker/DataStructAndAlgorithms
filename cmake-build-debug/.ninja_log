@@ -1,2 +1,4 @@
 # ninja log v5
-0	90	7162927433226961	build.ninja	e3455ed22d78c315
+0	90	7164995140142013	build.ninja	e3455ed22d78c315
+2	376	7164101959592157	CMakeFiles/DataStruct.dir/main.cpp.obj	577ae2ad40c240fa
+376	432	7164101960135954	DataStruct.exe	c0a5bcd53ca78fe
